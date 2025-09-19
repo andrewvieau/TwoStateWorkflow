@@ -1,0 +1,14 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "TwoStateWorkflow",
+  "items": {
+    "path": "two-state-workflow",
+    "includes": [
+      {
+        "name": "two-state-workflow",
+        "path": "/sitecore/system/Workflows/TwoStateWorkflow",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}
